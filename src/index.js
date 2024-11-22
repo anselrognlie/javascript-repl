@@ -30,3 +30,4 @@
 
 const { sum } = require('./math');
 console.log(sum(1, 2));
+console.log(process.env.api_key);
